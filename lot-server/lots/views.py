@@ -9,7 +9,6 @@ from django.http import QueryDict
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect
 from lots.migrations import data_get as data
-from lots.migrations import hosts
 
 ###伪装工作,强行返回404
 def dot_and_look(request,exception):
